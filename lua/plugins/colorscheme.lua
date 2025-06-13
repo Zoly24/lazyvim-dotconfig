@@ -26,8 +26,12 @@ return {
   },
   {
     "olimorris/onedarkpro.nvim",
+    config = function() end,
+  },
+  {
+    "savq/melange-nvim",
     config = function()
-      vim.cmd("colorscheme onedark")
+      vim.cmd("colorscheme melange")
     end,
   },
 }
