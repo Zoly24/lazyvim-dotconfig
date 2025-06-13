@@ -11,12 +11,23 @@ return {
     end,
   },
   {
-    "thesimonho/kanagawa-paper.nvim",
-    lazy = false,
-    priority = 1000,
-    opts = {},
+    "rjshkhr/shadow.nvim",
     config = function()
-      vim.cmd("colorscheme kanagawa-paper-ink")
+      vim.opt.termguicolors = true
+    end,
+  },
+  {
+    "marko-cerovac/material.nvim",
+    config = function() end,
+  },
+  {
+    "sainnhe/edge",
+    config = function() end,
+  },
+  {
+    "olimorris/onedarkpro.nvim",
+    config = function()
+      vim.cmd("colorscheme onedark")
     end,
   },
 }
