@@ -7,10 +7,16 @@ return {
   {
     "sainnhe/everforest",
     config = function()
-      -- Optionally configure and load the colorscheme
-      -- directly inside the plugin declaration.
       vim.g.everforest_enable_italic = true
-      vim.cmd("colorscheme everforest")
+    end,
+  },
+  {
+    "thesimonho/kanagawa-paper.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+    config = function()
+      vim.cmd("colorscheme kanagawa-paper-ink")
     end,
   },
 }
