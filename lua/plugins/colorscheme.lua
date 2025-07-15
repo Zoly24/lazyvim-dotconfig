@@ -37,7 +37,7 @@ return {
   {
     "olivercederborg/poimandres.nvim",
     config = function()
-      vim.cmd("colorscheme poimandres")
+      -- vim.cmd("colorscheme poimandres")
     end,
   },
   {
