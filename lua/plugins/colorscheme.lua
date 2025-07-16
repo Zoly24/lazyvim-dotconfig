@@ -56,7 +56,7 @@ return {
       -- vim.cmd("colorscheme base2tone_desert_dark")
       -- vim.cmd("colorscheme base2tone_lake_dark")
       -- vim.cmd("colorscheme base2tone_meadow_dark")
-      vim.cmd("colorscheme base2tone_drawbridge_dark")
+      -- vim.cmd("colorscheme base2tone_drawbridge_dark")
       -- vim.cmd("colorscheme base2tone_mall_dark")
       -- vim.cmd("colorscheme base2tone_suburb_dark")
       -- vim.cmd("colorscheme base2tone_lavender_dark")
@@ -87,6 +87,12 @@ return {
       -- vim.cmd("colorscheme base2tone_heath_light")
       -- vim.cmd("colorscheme base2tone_cave_light")
       -- vim.cmd("colorscheme base2tone_motel_light")
+    end,
+  },
+  {
+    "shaunsingh/nord.nvim",
+    config = function()
+      vim.cmd("colorscheme nord")
     end,
   },
 }
